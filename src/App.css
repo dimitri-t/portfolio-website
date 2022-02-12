@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+/* CSS For the terminal */
+
+.blinker {
+  opacity: 1;
+  margin-bottom: -2px;
+  height: 15px;
+  /* margin-left: -2px; */
+  border-left: 7px solid #16a34a;
+  animation: blinker 0.9s steps(2, start) infinite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+@keyframes blinker {
   to {
-    transform: rotate(360deg);
+    visibility: hidden;
   }
+}
+
+#a {
+  color: #3943b7;
+}
+
+#b {
+  color: #ff0096;
+}
+
+#c {
+  color: #15803d;
 }
