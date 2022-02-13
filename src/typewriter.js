@@ -1,11 +1,18 @@
 const terminalContent = `<span id="a">unknown@visitor</span>:<span id="b">~</span><span id="c">$</span> cd DimitriT/secret_file <br/><br/>
-<span id="a">unknown@visitor</span>:<span id="b">~</span><span id="c">$</span> cat secret_file.txt<br/><br/>
-My favorite code quote, "<span>Build fast, Code big</span>".
+<span id="a">unknown@visitor</span>:<span id="b">~</span><span id="c">$</span> cat info.txt<br/><br/>
 
-If you would like to get in touch with me, feel free to send me an email at <a href="mailto: dimitri.tsardakas@gmail.com">dimitri.tsardakas@gmail.com</a>.
-
-<p>Cheers!</p>
-<span id="a">unknown@visitor</span>:<span id="b">~</span><span id="c">$</span> exit `;
+<span><span id="d">education</span> - computer science unsw</span>
+<br></br>
+<span><span id="d">work experience</span> - deloitte (software engineer vacationer), optus (software engineer intern)</span>
+<br></br>
+<span><span id="d">tech stack</span> - javascript, typescript, react, nextjs, css, api, aws</span>
+<br></br>
+<span>learn more about me on my linkedin or visit my github to see what i am working on</span>
+<br></br>
+<span>Cheers!</span>
+<br></br>
+<span id="a">unknown@visitor</span>:<span id="b">~</span><span id="c">$</span> exit <br></br>
+<span id="a">unknown@visitor</span>:<span id="b">~</span><span id="c">$</span>`;
 
 // Typewriter starts after 3000ms
 setTimeout(function () {

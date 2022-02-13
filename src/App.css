@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap');
+
 /* CSS For the terminal */
 
 .blinker {
   opacity: 1;
   margin-bottom: -2px;
   height: 15px;
-  /* margin-left: -2px; */
-  border-left: 7px solid #16a34a;
+  margin-left: 5px;
+  border-left: 7px solid #14b8a6;
   animation: blinker 0.9s steps(2, start) infinite;
 }
+
+/* * {
+  font-family: 'M PLUS Rounded 1c';
+}
+
+.terminalText {
+font-family: ;
+} */
 
 @keyframes blinker {
   to {
@@ -16,13 +26,17 @@
 }
 
 #a {
-  color: #3943b7;
+  color: #14b8a6;
 }
 
 #b {
-  color: #ff0096;
+  color: #ff63c3;
 }
 
 #c {
-  color: #15803d;
+  color: #2563eb;
+}
+
+#d {
+  text-decoration: underline;
 }
