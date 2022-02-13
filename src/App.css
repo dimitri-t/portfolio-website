@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;700&display=swap');
-
 /* CSS For the terminal */
 
 .blinker {
@@ -10,14 +8,6 @@
   border-left: 7px solid #14b8a6;
   animation: blinker 0.9s steps(2, start) infinite;
 }
-
-/* * {
-  font-family: 'M PLUS Rounded 1c';
-}
-
-.terminalText {
-font-family: ;
-} */
 
 @keyframes blinker {
   to {

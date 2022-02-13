@@ -3,9 +3,9 @@ import './typewriter';
 
 function App() {
   return (
-    <div className='h-96 m-auto w-4/5 lg:w-3/5 '>
+    <div className='m-auto w-4/5 lg:w-3/5 '>
       <header className='flex p-3 items-center justify-between pt-10 pb-5'>
-        <div className='text-5xl font-medium font-sans'>Dimitri Tsardakas</div>
+        <div className='text-5xl font-medium'>Dimitri Tsardakas</div>
         <div className='text-2xl'>
           <a
             href='https://github.com/dimitri-t'
@@ -26,15 +26,15 @@ function App() {
       </header>
 
       {/* Terminal */}
-      <main className='rounded-lg lg:h-[620px] h-screen bg-gray-700'>
+      <main className='rounded-lg min-h-[620px] bg-gray-700'>
         <div className='flex items-center bg-neutral-800 h-8 rounded-t-lg'>
-          <button className='w-3 h-3 m-1 ml-2 rounded-full bg-red-600 items-centers'></button>
-          <button className='w-3 h-3 m-1 rounded-full bg-orange-600 items-centers'></button>
-          <button className='w-3 h-3 m-1 rounded-full bg-green-600 items-centers'></button>
+          <button className='w-3 h-3 m-1 ml-2 rounded-full bg-red-600'></button>
+          <button className='w-3 h-3 m-1 rounded-full bg-orange-600'></button>
+          <button className='w-3 h-3 m-1 rounded-full bg-green-600'></button>
         </div>
 
-        <div className='p-6 text-white font-mono text-xl'>
-          <span id='terminalText' class='terminalText'></span>
+        <div className='p-6 text-white font-mono text-lg'>
+          <span id='terminalText'></span>
           <span class='blinker'>&#32;</span>
         </div>
       </main>
